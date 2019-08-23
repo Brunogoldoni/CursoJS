@@ -90,9 +90,11 @@ function clicar() {
   let res = window.document.getElementById('res')
   let p = (txtPais.value)
 
-  res.innerHTML = `<p>Seu País Atual é: <strong>${p}</strong></p>`
+  let name = p.toLowerCase()
 
-  if (p.toLowerCase() === "brasil") {
+  res.innerHTML = `<p>Seu País Atual é: <strong>${name}</strong></p>`
+
+  if (name === "brasil") {
     res.innerHTML += `<p>Sua Cidadania é <strong>Brasileiro!</strong></p>`
   } else {
     res.innerHTML += `<p>Sua Cidadania é <strong>Estrangeira!</strong></p>`
