@@ -58,16 +58,45 @@
 // }
 
 // Exec 06 - Other Example
-function somar() {
-  let numberOne = window.document.getElementById('n1')
-  let numberTwo = window.document.querySelector('input#n2')
+// function somar() {
+//   let numberOne = window.document.getElementById('n1')
+//   let numberTwo = window.document.querySelector('input#n2')
+//   let res = window.document.getElementById('res')
+
+//   let n1 = Number(numberOne.value)
+//   let n2 = Number(numberTwo.value)
+
+//   let soma = n1 + n2
+
+//   res.innerHTML = (`A soma dos valores ${n1} e ${n2} é igual a: ` +  soma.toFixed(2).replace('.',','))
+// }
+
+//Exerc 08
+// function calcular() {
+//   let txtVel = window.document.getElementById('vel')
+//   let res = window.document.querySelector('div#res')
+//   let v = Number(txtVel.value)
+//   res.innerHTML = `<p>Sua Velocidade atual é de  <strong>${v}</strong> Km/h.</p>`
+
+//   if (v > 60) {
+//     res.innerHTML += `<p>Você foi <strong>MULTADO</strong> por Excesso de Velocidade.</p>`
+//   }
+//   res.innerHTML += `<p>Dirija Sempre com Cinto de Segurança!</p>`
+// }
+
+// Exerc 09
+function clicar() {
+  let txtPais = window.document.getElementById('pais')
   let res = window.document.getElementById('res')
+  let p = (txtPais.value)
 
-  let n1 = Number(numberOne.value)
-  let n2 = Number(numberTwo.value)
+  res.innerHTML = `<p>Seu País Atual é: <strong>${p}</strong></p>`
 
-  let soma = n1 + n2
-
-  res.innerHTML = (`A soma dos valores ${n1} e ${n2} é igual a: ` +  soma.toFixed(2).replace('.',','))
+  if (p === "Brasil") {
+    res.innerHTML += `<p>Você é <strong>Brasileiro!</strong></p>`
+  } else if (p === "brasil") {
+    res.innerHTML += `<p>Sua Cidadania é <strong>Brasileira!</strong></p>`
+  } else {
+    res.innerHTML = `<p>Sua Cidadania é <strong>Estrangeiro!</strong></p>`
+  }
 }
-

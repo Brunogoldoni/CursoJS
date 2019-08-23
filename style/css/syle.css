@@ -25,7 +25,7 @@ body {
   width: 150px;
 }
 
-.wrp-input {
+.wrp {
   padding: 5px;
   border-radius: 10px;
 }
@@ -42,6 +42,9 @@ body {
   color: black;
   font-weight: 600;
 }
+.btn:hover {
+  background-color: aquamarine;
+}
 
 .res-text {
   font-size: 18px;
@@ -52,4 +55,13 @@ body {
 
 .full-width {
   width: 100%;
+}
+
+.text {
+  padding: 5px;
+  margin: 40px 0 20px 0;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
