@@ -92,11 +92,9 @@ function clicar() {
 
   res.innerHTML = `<p>Seu País Atual é: <strong>${p}</strong></p>`
 
-  if (p === "Brasil") {
-    res.innerHTML += `<p>Você é <strong>Brasileiro!</strong></p>`
-  } else if (p === "brasil") {
-    res.innerHTML += `<p>Sua Cidadania é <strong>Brasileira!</strong></p>`
+  if (p.toLowerCase() === "brasil") {
+    res.innerHTML += `<p>Sua Cidadania é <strong>Brasileiro!</strong></p>`
   } else {
-    res.innerHTML = `<p>Sua Cidadania é <strong>Estrangeiro!</strong></p>`
+    res.innerHTML += `<p>Sua Cidadania é <strong>Estrangeira!</strong></p>`
   }
 }
