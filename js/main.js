@@ -85,18 +85,19 @@
 // }
 
 // Exerc 09
-function clicar() {
-  let txtPais = window.document.getElementById('pais')
-  let res = window.document.getElementById('res')
-  let p = (txtPais.value)
+// function clicar() {
+//   let txtPais = window.document.getElementById('pais')
+//   let res = window.document.getElementById('res')
+//   let p = (txtPais.value)
 
-  let name = p.toLowerCase()
+//   let name = p.toLowerCase()
 
-  res.innerHTML = `<p>Seu País Atual é: <strong>${name}</strong></p>`
+//   res.innerHTML = `<p>Seu País Atual é: <strong>${name}</strong></p>`
 
-  if (name === "brasil") {
-    res.innerHTML += `<p>Sua Cidadania é <strong>Brasileiro!</strong></p>`
-  } else {
-    res.innerHTML += `<p>Sua Cidadania é <strong>Estrangeira!</strong></p>`
-  }
-}
+//   if (name === "brasil") {
+//     res.innerHTML += `<p>Sua Cidadania é <strong>Brasileira!</strong></p>`
+//   } else {
+//     res.innerHTML += `<p>Sua Cidadania é <strong>Estrangeira!</strong></p>`
+//   }
+// }
+
