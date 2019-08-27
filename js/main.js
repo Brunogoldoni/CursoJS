@@ -68,7 +68,7 @@
 
 //   let soma = n1 + n2
 
-//   res.innerHTML = (`A soma dos valores ${n1} e ${n2} é igual a: ` +  soma.toFixed(2).replace('.',','))
+//   res.innerHTML = (`A soma dos valores ${n1} e ${n2} é igual a: ` + soma.toFixed(2).replace('.', ','))
 // }
 
 //Exerc 08

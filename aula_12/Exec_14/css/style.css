@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(43, 40, 40);
+  color: whitesmoke;
+  font: normal 16px Roboto;
+  padding: 40px 20px;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.section {
+  background: white;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.text {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}

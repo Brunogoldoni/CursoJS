@@ -35,10 +35,30 @@ body {
   border-radius: 5px;
 }
 
+.title {
+  color: blueviolet;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.section {
+  background: white;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.text {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .btn {
   background-color: aqua;
   border-radius: 5px;
-  border: solid 1px gray;
   color: black;
   font-weight: 600;
 }

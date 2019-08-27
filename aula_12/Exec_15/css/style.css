@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(43, 40, 40);
+  color: whitesmoke;
+  font: normal 16px Roboto;
+  padding: 40px 20px;
+}
+
+p {
+  color: black;
+}
+
+.title {
+  color: blueviolet;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub-title {
+  color: black;
+  font-size: 16px;
+
+}
+
+.section {
+  background: white;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.text {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.text-footer {
+  color: whitesmoke;
+}
+
+.btn {
+  background-color: aqua;
+  border-radius: 5px;
+  border: solid 2px rgb(196, 194, 194);
+  color: black;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: aquamarine;
+}
+
+.wrp {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 10px;
+  border: solid 2px rgb(196, 194, 194);
+}
+
+.wrp-res {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.res {
+  text-align: center;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
