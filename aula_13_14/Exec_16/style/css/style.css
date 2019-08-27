@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(43, 40, 40);
+  color: whitesmoke;
+  font: normal 16px Roboto;
+  padding: 40px 20px;
+}
+
+.title {
+  color: blueviolet;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#area {
+  align-items: center;
+  background-color: aqua;
+  border-radius: 3px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  padding: 5px;
+  width: 150px;
+}
+
+.wrp {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  color: blueviolet;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.section {
+  background: white;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.text {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: aqua;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: aquamarine;
+}
+
+.res-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text {
+  padding: 5px;
+  margin: 40px 0 20px 0;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+
+.text-footer {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrp-body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
