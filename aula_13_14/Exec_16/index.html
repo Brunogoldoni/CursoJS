@@ -9,30 +9,61 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style/css/style.css">
-  <title>Aula 04</title>
+  <title>Contador</title>
 </head>
 
 <body>
-  <div class="row">
-    <div class="col-md-12 wrp-body">
-      <!-- Exec ..... -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="title">Model Project</h1>
-        </div>
-      </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="wrp">
-            <input type="button" class="btn full-width" value="Botão Maroto">
+        <div>
+          <h1 class="title">Vamos contar</h1>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div id="dados">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text">Início:</p>
+                    <input type="number" class="input mb-20 full-width" name="initial-scale" id="txti">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text">Fim:</p>
+                    <input type="number" class="input mb-20 full-width" name="fim" id="txtf">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text">Passo:</p>
+                    <input type="number" class="input mb-20 full-width" name="passo" id="txtp">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <div>
+                      <input type="button" class="btn input mt-40 mb-40 full-width" value="Contar" onclick="contar()">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-footer">Footer</p>
+          <div class="row">
+            <div id="res" class="col-md-12">
+              <p class="res-text">Preparando a contagem...</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-footer">&copy; CursoemVideo</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
